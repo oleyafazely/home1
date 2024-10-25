@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .r{
+            display: block;
+
+        }
+        .div{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            width: 200px;
+            /* padding: 10px; */
+            
+            
+            
+
+        }
+        .content:hover .div{
+            display:block;
+            background-color: rgb(199, 194, 194);
+            /* transform: scale(1.8); */
+            color: black;
+            top: 30px;
+            left:  0px; 
+            
+
+        }
+        
+        
+        .content{
+            position: relative;
+            display: inline-block;
+            background-color: green;
+            padding: 10px;
+        }
+        .r:hover{
+            background-color:  rgb(128, 122, 122) ;
+        }
+        /* .content2:hover{
+            background-color: white;
+            color: black;
+        } */
+         .content:hover{
+            background-color: red;
+            
+         }
+         .o{
+            display: block;
+            padding: 10px;
+            
+         }
+         .or{
+            display: none;
+            position: absolute;
+            background-color: antiquewhite;
+            width: 200px;
+
+         }
+         .div1:hover .or{
+            display: block;
+            background-color: rgb(199, 194, 194);
+            /* transform: scale(1.8); */
+            color: black;
+            top: 45px; 
+            /* left: 365px; */
+            
+
+            
+            
+         }
+         .div1{
+            background-color: gray;
+            padding: 10px;
+            
+           
+
+         }
+         .yu,.div1,.div2{
+            display: inline-block;
+            margin: 0% 30px;
+
+         }
+         .uy{
+            text-decoration: none;
+         }
+         .o:hover{
+            background-color:rgb(177, 169, 169) ;
+         }
+         .div1:hover {
+            background-color: black;
+            color: white;
+         }
+         .q{
+            display: block;
+         }
+         .mo{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            width: 200px;
+         }
+         .div2{
+            background-color: red;
+            color: white;
+            padding: 10px;
+            width: 100px;
+         }
+
+         .div2:hover .mo{
+            display: block;
+            top: 45px;
+         }
+         .div2:hover{
+            background-color: orangered;
+
+         }
+         .q:hover{
+            background-color: orangered;
+         }
+         .i{
+            display: block;
+           
+         }
+         .ia{
+            display: none;
+            position: absolute;
+            background-color: #7cd1eb;
+            width: 200px;
+         }
+
+         .h:hover .ia{
+            display: block;
+            top: 37px;
+         }
+         .h{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(63, 53, 201);
+            padding: 10px;
+         }
+         .ia{
+            padding: 10px;
+         }
+         .i{
+            padding: 10px;
+         }
+         .i:hover{
+            background-color: rgb(49, 135, 216);
+         }
+         .h:hover{
+            background-color: skyblue;
+         }
+
+
+         .ie{
+            display: block;
+           
+         }
+         .iae{
+            display: none;
+            position: absolute;
+            background-color: #c971d1;
+            width: 200px;
+         }
+
+         .he:hover .iae{
+            display: block;
+            top: 37px;
+         }
+         .he{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(247, 18, 178);
+            padding: 10px;
+         }
+         .iae{
+            padding: 10px;
+         }
+         .ie{
+            padding: 10px;
+         }
+         .ie:hover{
+            background-color: rgb(202, 49, 216);
+         }
+         .he:hover{
+            background-color: rgb(182, 12, 105);
+         }
+
+
+
+
+
+         
+         .iaer{
+            display: none;
+            position: absolute;
+            background-color: #c971d1;
+            width: 200px;
+         }
+
+         .her:hover .iaer{
+            display: block;
+            top: 37px;
+         }
+         .her{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(148, 38, 115);
+            padding: 10px;
+         }
+         .iaer{
+            padding: 10px;
+         }
+         .ier{
+            padding: 10px;
+            display: block;
+         }
+         .ier:hover{
+            background-color: rgb(131, 40, 139);
+         }
+         .her:hover{
+            background-color: rgb(238, 129, 189);
+         }
+
+
+
+
+
+
+
+         
+         .aer{
+            display: none;
+            position: absolute;
+            background-color: #3d7db1;
+            width: 200px;
+         }
+
+         .er:hover .aer{
+            display: block;
+            top: 37px;
+         }
+         .er{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(143, 190, 228);
+            padding: 10px;
+         }
+         .aer{
+            padding: 10px;
+         }
+         .ir{
+            padding: 10px;
+            display: block;
+         }
+         .ir:hover{
+            background-color: rgb(106, 142, 196);
+         }
+         .er:hover{
+            background-color: rgb(60, 176, 243);
+         }
+
+
+
+
+
+
+
+         
+         .aerl{
+            display: none;
+            position: absolute;
+            background-color: #b17f3d;
+            width: 200px;
+         }
+
+         .erl:hover .aerl{
+            display: block;
+            top: 37px;
+         }
+         .erl{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(241, 171, 78);
+            padding: 10px;
+         }
+         .aerl{
+            padding: 10px;
+         }
+         .irl{
+            padding: 10px;
+            display: block;
+         }
+         .irl:hover{
+            background-color: rgb(236, 188, 99);
+         }
+         .erl:hover{
+            background-color: rgb(243, 164, 60);
+         }
+
+
+
+
+
+         
+         .aerlo{
+            display: none;
+            position: absolute;
+            background-color: #df3d28;
+            width: 200px;
+         }
+
+         .erlo:hover .aerlo{
+            display: block;
+            top: 37px;
+         }
+         .erlo{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(219, 143, 143);
+            padding: 10px;
+         }
+         .aerlo{
+            padding: 10px;
+         }
+         .irlo{
+            padding: 10px;
+            display: block;
+         }
+         .irlo:hover{
+            background-color: rgb(180, 69, 69);
+         }
+         .erlo:hover{
+            background-color: rgb(226, 93, 93);
+         }
+
+
+
+
+
+         .aerlow{
+            display: none;
+            position: absolute;
+            background-color: #6f2aca;
+            width: 200px;
+         }
+
+         .erlow:hover .aerlow{
+            display: block;
+            top: 37px;
+         }
+         .erlow{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(77, 75, 185);
+            padding: 10px;
+         }
+         .aerlow{
+            padding: 10px;
+         }
+         .irlow{
+            padding: 10px;
+            display: block;
+         }
+         .irlow:hover{
+            background-color: rgb(82, 102, 190);
+         }
+         .erlow:hover{
+            background-color: rgb(106, 93, 226);
+         }
+
+
+
+
+
+
+         
+         .aerlowa{
+            display: none;
+            position: absolute;
+            background-color: #ca2aaf;
+            width: 200px;
+         }
+
+         .erlowa:hover .aerlowa{
+            display: block;
+            top: 37px;
+         }
+         .erlowa{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(177, 93, 166);
+            padding: 10px;
+         }
+         .aerlowa{
+            padding: 10px;
+         }
+         .irlowa{
+            padding: 10px;
+            display: block;
+         }
+         .irlowa:hover{
+            background-color: rgb(241, 62, 152);
+         }
+         .erlowa:hover{
+            background-color: rgb(231, 138, 189);
+         }
+
+
+
+
+         
+
+
+         
+
+
+         
+
+        
+
+
+
+    </style>
+</head>
+<body>
+
+    <div  style=" width: 100%;">
+        <ul class="yu"  style="width: 100%;">
+            <li class="content" >
+                <a style="text-decoration: none; color: white; " class="content2"  href="">dropdown</a>
+                <div class="div">
+                    <a  class="r" style="text-decoration: none; padding: 10px;" href="">oleya</a>
+                    <a class="r" style="text-decoration: none; padding: 10px;" href="">oleya</a>
+                    <a class="r" style="text-decoration: none; padding: 10px;" href="">oleya</a>
+                </div>
+            </li>
+        
+
+
+
+
+        <!-- <ul style="text-decoration: none;" class="uy" > -->
+            <li style="text-decoration: none;" class="div1">
+                <a style="text-decoration: none; color: white;" class="con" href="">dropdown1</a>
+                <div class="or">
+                    <a class="o" style="text-decoration: none;" href="">oleya</a>
+                    <a class="o" style="text-decoration: none;" href="">oleya</a>
+                    <a class="o" style="text-decoration: none;" href="">oleya</a>
+                </div>
+            </li>
+
+            <li style="text-decoration: none; " class="div2">
+                <a style="text-decoration: none; " class="div3" href="">dropdown2</a>
+                <div class="mo">
+                    <a class="q" style="text-decoration: none; padding: 15px; " href="">oleya</a>
+                    <a class="q" style="text-decoration: none; padding: 15px; " href="">oleya</a>
+                    <a class="q" style="text-decoration: none; padding: 15px; " href="">oleya</a>
+                </div>
+            </li>
+
+            <li class="h">
+                <a style="text-decoration: none; color: white;" class="ro " href="">dropdown4</a>
+                <div class="ia">
+                    <a style="text-decoration: none;" class="i" href="">oleya</a>
+                    <a style="text-decoration: none;" class="i" href="">oleya</a>
+                    <a style="text-decoration: none;" class="i" href="">oleya</a>
+                </div>
+            </li>
+
+            
+            <li class="he">
+                <a style="text-decoration: none;" class="rod " href="">dropdown5</a>
+                <div class="iae">
+                    <a style="text-decoration: none;" class="ie" href="">oleya</a>
+                    <a style="text-decoration: none;" class="ie" href="">oleya</a>
+                    <a style="text-decoration: none;" class="ie" href="">oleya</a>
+                </div>
+            </li>
+
+
+            
+            <li class="her">
+                <a style="text-decoration: none; color: white;" class="rod " href="">dropdown6</a>
+                <div class="iaer">
+                    <a style="text-decoration: none;" class="ier" href="">oleya</a>
+                    <a style="text-decoration: none;" class="ier" href="">oleya</a>
+                    <a style="text-decoration: none;" class="ier" href="">oleya</a>
+                </div>
+            </li>
+
+
+            
+            <li class="er">
+                <a style="text-decoration: none; color: white;" class="rod " href="">dropdown6</a>
+                <div class="aer">
+                    <a style="text-decoration: none;" class="ir" href="">oleya</a>
+                    <a style="text-decoration: none;" class="ir" href="">oleya</a>
+                    <a style="text-decoration: none;" class="ir" href="">oleya</a>
+                </div>
+            </li>
+
+
+            
+            
+            <li class="erl">
+                <a style="text-decoration: none; color: white;" class="rod " href="">dropdown7</a>
+                <div class="aerl">
+                    <a style="text-decoration: none;" class="irl" href="">oleya</a>
+                    <a style="text-decoration: none;" class="irl" href="">oleya</a>
+                    <a style="text-decoration: none;" class="irl" href="">oleya</a>
+                </div>
+            </li>
+
+
+            
+            <li class="erlo">
+                <a style="text-decoration: none; color: white;" class="rod " href="">dropdown8</a>
+                <div class="aerlo">
+                    <a style="text-decoration: none;" class="irlo" href="">oleya</a>
+                    <a style="text-decoration: none;" class="irlo" href="">oleya</a>
+                    <a style="text-decoration: none;" class="irlo" href="">oleya</a>
+                </div>
+            </li>
+
+
+            
+            <li class="erlow">
+                <a style="text-decoration: none; color: white;" class="rod " href="">dropdown9</a>
+                <div class="aerlow">
+                    <a style="text-decoration: none;" class="irlow" href="">oleya</a>
+                    <a style="text-decoration: none;" class="irlow" href="">oleya</a>
+                    <a style="text-decoration: none;" class="irlow" href="">oleya</a>
+                </div>
+            </li>
+
+
+
+            
+            <li class="erlowa">
+                <a style="text-decoration: none; color: white;" class="rod " href="">dropdown10</a>
+                <div class="aerlowa">
+                    <a style="text-decoration: none;" class="irlowa" href="">oleya</a>
+                    <a style="text-decoration: none;" class="irlowa" href="">oleya</a>
+                    <a style="text-decoration: none;" class="irlowa" href="">oleya</a>
+                </div>
+            </li>
+
+
+
+
+
+            
+
+
+            
+
+
+            
+        </ul>
+    </div>
+    
+</body>
+</html>
